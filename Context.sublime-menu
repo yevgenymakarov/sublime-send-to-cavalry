@@ -1,0 +1,22 @@
+[
+	{ "caption": "Send to Cavalry", "command": "send_to_cavalry" },
+	{
+		"caption": "Send to Cavalry: Actions",
+		"children":
+		[
+			{ "caption": "Send to Cavalry", "command": "send_to_cavalry" },
+			{ "caption": "Send to Cavalry (Selection)", "command": "send_to_cavalry", "args": {"use_selection": true} },
+			{ "caption": "-" },
+			{ "caption": "Execute", "command": "send_to_cavalry", "args": {"action": "execute_script"} },
+			{ "caption": "Run File Script", "command": "send_to_cavalry", "args": {"action": "run_file_script_path"} },
+			{ "caption": "-" },
+			{ "caption": "Set Action: Send to Layer…", "command": "send_to_cavalry_set_layer_id" },
+			{ "caption": "Set Action: Create a New Layer…", "command": "send_to_cavalry_set_layer_type" },
+			{ "caption": "Set Action: Send to Selected Layers", "command": "send_to_cavalry_set_default_action", "args": {"default_action": "set_to_selected_layers"} },
+			{ "caption": "Set Action: Execute", "command": "send_to_cavalry_set_default_action", "args": {"default_action": "execute_script"} },
+			{ "caption": "Set Action: Run File Script", "command": "send_to_cavalry_set_default_action", "args": {"default_action": "run_file_script_path"} },
+			{ "caption": "-" },
+			{ "caption": "Open GitHub Page", "command": "open_url", "args": {"url": "https://github.com/yevgenymakarov/sublime-send-to-cavalry"} }
+		]
+	}
+]
